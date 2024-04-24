@@ -4,10 +4,10 @@
 
 <h2>Launch Instructions</h2>
 
-# AWS-Facial-Recognition-API-Application
+<h3> AWS-Facial-Recognition-API-Application </h3>
 app that demonstarates how to use Amazon Rekognition api features for facial recognition with node.js
 
-## AWS Configurations
+<h4> AWS Configurations </h4>
 1. You need to log in to AWS service.
 2. Configure user and storage and get permission to run Amazon Rekognition API:
 -User:
@@ -23,7 +23,8 @@ app that demonstarates how to use Amazon Rekognition api features for facial rec
     - Click create bucket
     - Upload images that you want to analyze into your bucket.
     - <img src="https://github.com/Nikita333111/AWS-Facial-Recognition-API-Application/blob/main/amazon-rekognition/instructions%20imgs/upload%20img.png" height="350" alt="конфигурация бд">
-## Project Configuration
+
+<h4> Project Configuration </h4>
 1. Clone this project "git clone https://github.com/coursera-guided/amazon-rekognition.git" and install dependensies:
     - type into project terminal "npm install" and "npm install aws-sdk".
     - paste your public and private keys into env file.
@@ -31,6 +32,6 @@ app that demonstarates how to use Amazon Rekognition api features for facial rec
     - Type node server.js into your terminal in ptoject directory to run application.
     - Go to localhost:8089 in yuor browser to test application.
 
-## Clean up
+<h4> Clean up </h4>
 1. Clean up your enviroment:
     - Delete bucket and user to avoid aws payment, aws is pay to use platform, so you need to clean all stuff after usage. 
